@@ -4,11 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import Message from './exercises/greeting.jsx'
 import ToggleButton from './exercises/toggle.jsx'
+import NameForm from './exercises/showInput.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Message name="Puneet" />
     <ToggleButton />
+    <NameForm />
   </StrictMode>,
 )
