@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Message from './exercises/greeting.jsx'
 import ToggleButton from './exercises/toggle.jsx'
 import NameForm from './exercises/showInput.jsx'
+import TitleUpdater from './exercises/titleUpdater.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,5 +13,6 @@ createRoot(document.getElementById('root')).render(
     <Message name="Puneet" />
     <ToggleButton />
     <NameForm />
+    <TitleUpdater />
   </StrictMode>,
 )
