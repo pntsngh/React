@@ -12,6 +12,5 @@ import Focus from './exercises/React_hooks/focus.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Focus />
   </StrictMode>,
 )
