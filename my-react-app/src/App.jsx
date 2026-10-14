@@ -3,16 +3,16 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import ThemeDisplay from './exercises/React_hooks/ThemeDisplay'
-import ThemeContext, { ThemeProvider } from './exercises/React_hooks/ThemeContext'
+import UncontrolledForm from './exercises/Routing&Forms/UncontrolledForm'
+import MultiPageApp from './exercises/Routing&Forms/MultiPageApp'
 
 
 function App() {
-  return (
-    <ThemeProvider>
-      <ThemeDisplay />
-    </ThemeProvider>
-  )
+ return (
+    <div>
+      <MultiPageApp />
+    </div>
+  );
 }
 
 export default App

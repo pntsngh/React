@@ -1,0 +1,12 @@
+.item {
+  background-color: rgb(207, 121, 23);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 10px auto;
+  color: black
+}
+
+.item h2 {
+    color: black
+}
